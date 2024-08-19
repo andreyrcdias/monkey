@@ -3,7 +3,6 @@
 Self-study of the book "Writing an Interpreter in Go" by Thorsten Ball
 
 
-
 ## The Monkey Programming Language & Interpreter
 
 Expressed as a list of features, Monkey has the following:
@@ -47,3 +46,4 @@ let add = fn (a, b) {
 ```
 go run main.go
 ```
+
