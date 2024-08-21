@@ -37,11 +37,11 @@ func Start(in io.Reader, out io.Writer) {
 
 		switch line {
 		case "help":
-			fmt.Printf("TODO")
+			fmt.Printf("TODO\n")
 		case "credits":
 			fmt.Printf(" Thanks Thorsten Ball for this Amazin book. \n")
 		case "exit":
-            return
+			return
 		default:
 			l := lexer.New(line)
 			for tok := l.NextToken(); tok.Type != token.EOF; tok = l.NextToken() {
